@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/birumuda"
+    tools:context="com.blogspot.abimcode.basic.MengenalHurufHijaiyahActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:src="@drawable/hijaiyah"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="16dp"
+        android:background="@drawable/edit"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Password"
+        android:background="@drawable/edit"
+        android:padding="16dp"
+        android:layout_marginTop="3dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/btnLgn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="casual"
+        android:background="@drawable/bgtbutton"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

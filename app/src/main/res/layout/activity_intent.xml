@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/birumuda"
+    tools:context="com.blogspot.abimcode.basic.IntentActivity">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:src="@drawable/hijaiyah"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:background="@drawable/edit"
+        android:id="@+id/edtName"
+        android:hint="Input Your Name"
+        android:padding="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnOk"
+        android:text="OK"
+        android:fontFamily="casual"
+        android:padding="16dp"
+        android:background="@drawable/bgtbutton"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>
